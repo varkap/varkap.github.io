@@ -1,0 +1,13 @@
+@import url("base.css");
+@import url("pictures.css");
+
+button:hover {
+    background-color: hotpink;
+    border-radius: 5mm;
+    transition: ease-in;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

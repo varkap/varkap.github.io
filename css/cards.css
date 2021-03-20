@@ -1,0 +1,35 @@
+
+#gridblog {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 65% 35%;
+    grid-template-areas: 
+        "map"
+        "con"
+    ;
+}
+#one {
+    display: grid;
+    grid-area: map;
+    background-image: url("../images/Florida.png");
+}
+#two {
+    display: grid;
+    grid-area: map;
+    background-image: url("../images/Hawaii.png");
+
+}
+#three {
+    display: grid;
+    grid-area: map;
+    background-image: url("../images/Canada.png");
+}
+.blog-title {
+    display: grid;
+    grid-area: con;
+    align-items: center;
+    font-size: 1cm;
+    justify-items: center;
+    font-variant: small-caps;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
